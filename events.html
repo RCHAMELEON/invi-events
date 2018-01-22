@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Мероприятия</title>
+    <link rel="stylesheet" href="events.css"/>
+    <script src="jquery-2.1.3.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <section class="headings for-mobile">
+            <p class="heading heading-anons">Анонс мероприятий</p>
+            <p class="heading heading-archive">Архив мероприятий</p>
+        </section>
+        <div class="menu-hamburger for-mobile">
+            <i class="hamburger"></i>
+        </div>
+        <div class="toggles not-for-mobile">
+            <div class="group">
+                <span class="heading heading_left">Анонс мероприятий</span>
+                <input type="checkbox" name="checkbox1" id="checkbox1" class="toggle-check"/>
+                <label for="checkbox1" class="checkbox-label"></label>
+                <span class="heading heading_right">Архив мероприятий</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="events events-anons">
+            <section class="event">
+                <div class="event__img not-for-mobile" style="background: url('img/1event.jpg') center no-repeat"></div>
+                <div class="description">
+                    <h1 class="event__title">Собственная торговая марка IPLS 2018</h1>
+                    <p class="event__desc">Международная специализированная выставка контрактного производст...</p>
+                    <span class="small-litter">Дата проведения</span><p class="event__info">18 – 22 октября</p>
+                    <div class="hidden-for-anons">
+                        <span class="small-litter">Место проведения</span><p class="event__info">г. Благовещенск, ул. Чайковского,<br/>35/2, Бизнес-центр «Бастион»</p>
+                        <a href="#" class="detail-button">Подробности</a>
+                    </div>
+                </div>
+            </section>
+            <section class="event last-of-row">
+                <div class="event__img not-for-mobile" style="background: url('img/2event.jpg') center no-repeat"></div>
+                <div class="description">
+                    <h1 class="event__title">Всероссийская ярмарка 2018</h1>
+                    <p class="event__desc">Международная специализированная выставка контрактного производст...</p>
+                    <span class="small-litter">Дата проведения</span><p class="event__info">18 – 22 октября</p>
+                    <div class="hidden-for-anons">
+                        <span class="small-litter">Место проведения</span><p class="event__info">г. Благовещенск, ул. Чайковского,<br/>35/2, Бизнес-центр «Бастион»</p>
+                        <a href="#" class="detail-button">Подробности</a>
+                    </div>
+                </div>
+            </section>
+            <section class="event">
+                <div class="event__img not-for-mobile" style="background: url('img/3event.jpg') center no-repeat"></div>
+                <div class="description">
+                    <h1 class="event__title">Большая выставка к юбилею возрождения серии «Жизнь замечательных людей»</h1>
+                    <p class="event__desc">Выставка посвящена композитору, первому руководителю Амурско...</p>
+                    <span class="small-litter">Дата проведения</span><p class="event__info">18 – 22 октября</p>
+                    <div class="hidden-for-anons">
+                        <span class="small-litter">Место проведения</span><p class="event__info">г. Благовещенск, ул. Чайковского,<br/>35/2, Бизнес-центр «Бастион»</p>
+                        <a href="#" class="detail-button">Подробности</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="events events-archive">
+            <section class="event event-archive">
+                <div class="event__img not-for-mobile" style="background: url('img/1event.jpg') center no-repeat"></div>
+                <div class="description">
+                    <h1 class="event__title">Дыхание Парижа или Праздник,
+                        который всегда с тобой</h1>
+                    <p class="event__desc">Знаменитые кафе и рестораны Парижа,оперные театры и кабаре, плетеный Монмарт. Мир парижской артистической...</p>
+                    <span class="small-litter">Дата проведения</span><p class="event__info">18 – 22 октября</p>
+                    <div class="hidden-for-anons">
+                        <span class="small-litter">Место проведения</span><p class="event__info">г. Благовещенск, ул. Чайковского,<br/>35/2, Бизнес-центр «Бастион»</p>
+                        <a href="#" class="detail-button">Подробности</a>
+                    </div>
+                </div>
+            </section>
+            <section class="event event-archive last-of-row-table">
+                <div class="event__img not-for-mobile" style="background: url('img/2event.jpg') center no-repeat">
+                    <div class="group">
+                        <div class="video"></div>
+                        <div class="picture"></div>
+                    </div>
+                </div>
+                <div class="description">
+                    <h1 class="event__title">Дыхание Парижа или Праздник,
+                        который всегда с тобой</h1>
+                    <p class="event__desc">Знаменитые кафе и рестораны Парижа,оперные театры и кабаре, плетеный Монмарт. Мир парижской артистической жизни!</p>
+                    <span class="small-litter">Дата проведения</span><p class="event__info">18 – 22 октября</p>
+                    <div class="hidden-for-anons">
+                        <span class="small-litter">Место проведения</span><p class="event__info">г. Благовещенск, ул. Чайковского,<br/>35/2, Бизнес-центр «Бастион»</p>
+                        <a href="#" class="detail-button">Подробности</a>
+                    </div>
+                </div>
+            </section>
+            <section class="event event-archive last-of-row-pc">
+                <div class="event__img not-for-mobile" style="background: url('img/2event.jpg') center no-repeat"></div>
+                <div class="description">
+                    <h1 class="event__title">Дыхание Парижа или Праздник,
+                        который всегда с тобой</h1>
+                    <p class="event__desc">Знаменитые кафе и рестораны Парижа,оперные театры и кабаре, плетеный Монмарт. Мир парижской артистической жизни!</p>
+                    <span class="small-litter">Дата проведения</span><p class="event__info">18 – 22 октября</p>
+                    <div class="hidden-for-anons">
+                        <span class="small-litter">Место проведения</span><p class="event__info">г. Благовещенск, ул. Чайковского,<br/>35/2, Бизнес-центр «Бастион»</p>
+                        <a href="#" class="detail-button">Подробности</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <div class="red-button clearfix not-for-pc">
+            <i class="but-icon"></i>Еще записи
+        </div>
+
+        <div class="events-form for-pc">
+            <div class="form-header">
+                <div class="group">
+                    <h1 class="form-header__title">Оформи подписку</h1>
+                    <p class="form-header__desc">Для того, что бы одним из самых первых узнавать<br/>
+                        о всех грядущих выставках и других мероприятиях</p>
+                </div>
+                <form class="subscription">
+                    <input type="email" class="subscription__input" placeholder="Введите email">
+                    <button class="subscription__button">Подписаться</button>
+                </form>
+            </div>
+            <div class="form-footer">
+                <input class="personal-check" type="checkbox" checked><span class="personal-check__indicator"></span>
+                <p class="personal-process">Я согласен на обработку <a href="#" class="personal-process__link">персональных данных</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
