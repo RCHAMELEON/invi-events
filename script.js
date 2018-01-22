@@ -2,13 +2,13 @@ $(document).ready(function () {
     var flag = false;
     $('#checkbox1').click(onclick, function () {
         if(flag == false){
-            $('.events-anons').css('display','none');
-            $('.events-archive').css('display','table');
+            $('.events-anons').fadeOut();
+            $('.events-archive').fadeIn();
             flag  = true;
         }
         else {
-            $('.events-anons').css('display','table');
-            $('.events-archive').css('display','none');
+            $('.events-anons').fadeIn();
+            $('.events-archive').fadeOut();
             flag  = false;
         }
     });
