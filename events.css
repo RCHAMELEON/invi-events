@@ -378,6 +378,7 @@
         box-sizing: border-box;
         margin-right: 10px;
         padding-left: 10px;
+        cursor: pointer;
     }
     .video{
         right: 60px;
@@ -468,7 +469,7 @@
         margin-top: 30px;
         margin-right: 30px;
         width: 540px;
-        height: 380px;
+        height: 420px;
         transition: all .3s ease
     }
     .events-anons .event:hover .event__img{
