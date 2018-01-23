@@ -331,7 +331,7 @@
         box-sizing: border-box;
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        transition: all .4s ease .11s !important;
+        transition: all .4s ease .14s !important;
     }
     .event__img .group{
         position: absolute;
