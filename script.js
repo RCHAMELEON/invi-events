@@ -45,4 +45,11 @@ $(document).ready(function () {
         $('.events-anons').css('display', 'table');
     });
 
+    $('.description-archive').hover(function () {
+        $(this).parent().find('.event__img').css('-webkit-transform', 'translateY(-100%)');
+    }, function () {
+        $(this).parent().find('.event__img').css('-webkit-transform', 'translateY(0)');
+    })
+
+
 });

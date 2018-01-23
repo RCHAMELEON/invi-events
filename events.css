@@ -247,9 +247,6 @@
     .last-of-row-table{
         margin-right: 0 !important;
     }
-    .hidden-for-anons{
-        transition: all .3s ease;
-    }
     /*End*/
 
     /*Toggles*/
@@ -334,7 +331,7 @@
         box-sizing: border-box;
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        transition: all .3s ease;
+        transition: all .4s ease .11s !important;
     }
     .event__img .group{
         position: absolute;
@@ -406,29 +403,24 @@
         padding-top: 25px;
     }
     .events-archive .hidden-for-anons{
-        display: none;
-        transition: all .3s ease;
+        opacity: 0;
+        transition: all .4s ease .18s !important;
     }
-    .events-archive .event-archive:hover .event__img{
-        -webkit-transform: translateY(-100%);
-    }
-    .events-archive .event-archive:hover .description{
-        position: absolute;
-        top: 0;
+    .events-archive .event-archive .description:hover{
+        -webkit-transform: translateY(-185px);
+        display: table;
         height: 100%;
-        display: table;
+        position: absolute;
     }
-    .events-archive .event-archive:hover .event__img .group{
-        display: none;
-    }
-    .events-archive .event-archive:hover .hidden-for-anons{
-        display: table;
+    .events-archive .event-archive .description:hover .hidden-for-anons{
+        opacity: 1;
     }
     .events-archive .event-archive .detail-button{
         margin-bottom: 40px;
     }
     .description{
         padding-top: 15px;
+        transition: all .4s ease .18s !important;
     }
     .detail-button{
         border: 2px solid rgb(228, 45, 60);
@@ -449,8 +441,7 @@
         width: 1110px;
     }
     .hidden-for-anons{
-        display: none;
-        transition: all .3s ease;
+        opacity: 0;
     }
     .not-for-pc{
         display: none;
@@ -480,17 +471,17 @@
         height: 380px;
         transition: all .3s ease
     }
-    .event:hover .event__img{
-        -webkit-transform: translateY(-100%);
+    .events-anons .event:hover .event__img{
+        -webkit-transform: translateY(-100%) !important;
     }
-    .event:hover .description{
-        position: absolute;
-        top: 0;
+    .events-anons .event:hover .description{
+        -webkit-transform: translateY(-185px);
         display: table;
         height: 100%;
+        position: absolute;
     }
-    .event:hover .hidden-for-anons{
-        display: table;
+    .events-anons .event:hover .hidden-for-anons{
+        opacity: 1;
     }
     .event__img{
         height: 175px;
