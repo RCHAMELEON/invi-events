@@ -51,5 +51,4 @@ $(document).ready(function () {
         $(this).parent().find('.event__img').css('-webkit-transform', 'translateY(0)');
     })
 
-
 });
